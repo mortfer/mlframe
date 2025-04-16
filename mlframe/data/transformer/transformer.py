@@ -234,7 +234,7 @@ class EstimatorTransformer(ITransformer):
         return output_dict
 
 
-class FeatureMetadataTransformer(ITransformer):
+class FeaturesMetadataTransformer(ITransformer):
     def __init__(
         self,
         vocabularies: List = None,

@@ -1,6 +1,6 @@
 from mlframe.data.dataset_pipeline import DatasetPipeline
 from mlframe.data.dataset import Dataset
-from mlframe.data.utils import PetastormIterator, PytorchIterator
+from mlframe.data.utils import PetastormIterator
 from mlframe.data.reader import (
     SparkReader,
     SnowflakeReader,
@@ -17,7 +17,7 @@ from mlframe.data.transformer import (
     TwoToOneTransformer,
     DataIteratorTransformer,
 )
-from mlframe.data.writer import SparkWriter, MultiWriter, SequentialWriter
+from mlframe.data.writer import SparkWriter, MultiWriter, SequentialWriter  
 
 __all__ = [
     "DatasetPipeline",
